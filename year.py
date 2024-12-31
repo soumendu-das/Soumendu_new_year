@@ -12,8 +12,9 @@ st.sidebar.title("**WISHIFI🎉**")
 st.sidebar.write("Functionality:")
 st.sidebar.write(" ⭐ Users input their name.")
 st.sidebar.write(" ⭐ The app generates a customized New Year’s wish, incorporating their name.")
-
-st.sidebar.subheader("soumendu chatbot :-")
+st.sidebar.audio("generated_audio.mp3")
+st.sidebar.audio("generated_audio bangla.mp3")
+st.sidebar.subheader("soumendu chatbot")
 with st.sidebar.chat_message("user"):
        prompt = st.sidebar.chat_input("Say something ...")
        if prompt:
@@ -32,7 +33,7 @@ if(st.button("Get")):
         st.write("1")
         time.sleep(1)
        
-    st.image("D:/happy/images (5).jpeg")
+    st.image("images (5).jpeg")
     st.write(" ✨🎉🎊 Happy New Year 2025,",f"**💖{name}**💖 ","  On this wonderful occasion, Soumendu wishes you all the best for the year ahead.🥳 May this year bring you new success, happiness, and peace. May all your aspirations turn into achievements, and challenges become stepping stones 🥰. Wishing you a year filled with positivity and progress!😊")
     st.write("🎊🎉✨নতুন বছরের শুভেচ্ছা ",f"**💗{name}💗**",", নতুন সূর্যোদয়ের এই শুভ মুহূর্তে সৌমেন্দু তোমার জন্য জানাচ্ছে অন্তরের শুভকামনা 🥰। আশা করি এই বছর তোমার জীবনে সুখ, সমৃদ্ধি, এবং শান্তি নিয়ে আসবে। তোমার প্রতিটি স্বপ্ন পূর্ণ হোক, আর প্রতিটি বাধা হয়ে উঠুক সাফল্যের পথ 🤩। নতুন বছরের প্রতিটি দিন হোক আনন্দে ভরা এবং সাফল্যে উজ্জ্বল।🤗😙 ")
     
